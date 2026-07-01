@@ -1,58 +1,130 @@
-# OwoFarm
+# 🌸 OwoFarm (Archived) ✨
 
-A fully automated farming bot for the popular Owo bot on Discord. This bot is designed to automate various Owo bot commands like hunting, battling, and more, helping you collect resources and improve your progress effortlessly!
+<p align="center">
+  <img src="https://media.giphy.com/media/3oriO0OEd9QIDdllqo/giphy.gif" width="180" alt="anime sparkle gif" />
+</p>
 
-## Features
+<p align="center">
+  <b>Educational TypeScript Automation Architecture Demo</b><br/>
+  <i>Clean structure • Kawaii style • Responsible use</i>
+</p>
 
-- **Auto Hunting (`owo hunt`)**: Automatically hunts for animals with customizable intervals.
-- **Auto Battling (`owo battle`)**: Engage in battles with predefined strategies and commands.
-- **Customizable Timing**: Set intervals between commands to avoid detection.
-- **Auto Use of Gems**: Automatically uses gems in the game without manual intervention.
-- **Auto Quest Checking**: Automatically checks for available quests and updates quest progress.
-- **Automatic Zoo View**: Automatically displays the zoo collection and updates it in real-time.
-- **Daily Claim Automation**: Automatically claims daily rewards without user input.
-- **Calculating Exp from Hunting**: Automatically calculates experience points earned from hunting (battle exp feature is in progress).
-- **Auto Inventory Item Collection**: Automatically collects all items available in the player's inventory.
-- **Auto Use of Lootbox/Fabled Lootbox/Crate**: Automatically opens lootboxes, fabled lootboxes, and crates.
-- **Owo Pray/Curse Automation (Set Target)**: Automatically performs "owo pray" or "owo curse" commands, with the option to set a target.
-- **Owo Cookie Automation (Set Target)**: Automatically sends "owo cookie" with the ability to specify a target.
-- **Dynamic Configuration Without App Restart**: Allows configuration updates dynamically without restarting the application.
+<p align="center">
+  <img alt="Status" src="https://img.shields.io/badge/status-archived-ff69b4?style=for-the-badge">
+  <img alt="Purpose" src="https://img.shields.io/badge/purpose-education-8a2be2?style=for-the-badge">
+  <img alt="Language" src="https://img.shields.io/badge/language-typescript-00bfff?style=for-the-badge">
+</p>
 
-- **Anti-Detection Measures**: Implements randomization in command timings to reduce the risk of being flagged by Discord or Owo bot's anti-bot systems.
-- **Support for Multiple Accounts**: Can be configured to run on multiple Discord accounts.
+---
 
-## Setup & Usage
+## 💌 Notice
 
-1. **Clone the repository**:
+**This repository is archived and provided for educational purposes only.**  
+It is **not intended for violating** Discord, third-party bot, or platform Terms of Service.
+
+Please use this project only to study:
+- TypeScript project organization
+- modular command architecture
+- scheduling/retry patterns
+- configuration management
+
+---
+
+## 🌼 What This Repo Demonstrates
+
+- 🧩 Modular TypeScript code structure  
+- ⚙️ Config-driven behavior design  
+- ⏱️ Task scheduling patterns  
+- 🧪 Maintainable architecture for learning  
+- 🔄 Runtime config update concepts
+
+---
+
+## 🧁 Project Structure
+
+```txt
+owofarm/
+├─ src/
+│  ├─ config.ts
+│  ├─ index.ts
+│  └─ modules/
+├─ package.json
+├─ tsconfig.json
+└─ README.md
+```
+
+---
+
+## 🛠️ Local Setup (Learning/Development Only)
+
+> These steps are for running the codebase in a local educational environment.
+
+1. **Clone**
    ```bash
-   git clone https://github.com/Paiiss/owofarm.git
+   git clone https://github.com/SaOYaD-SZN/owofarm.git
    cd owofarm
    ```
-2. **Install dependencies**:
+
+2. **Install dependencies**
    ```bash
    npm install
    ```
-3. **Configure the bot**:
 
-   - Update the `.env` file with your Discord bot token and Owo bot configurations.
-   - Customize the bot's settings in `src/config.ts` as needed.
+3. **Configure environment**
+   - Create a local `.env` file from your own template
+   - Keep secrets private and never commit tokens
 
-4. **Build the bot**:
-
+4. **Build**
    ```bash
    npm run build
    ```
 
-5. **Run the bot**:
+5. **Run**
    ```bash
    npm start
    ```
 
-## Notes
+---
 
-- Use this bot responsibly and at your own risk. Automating Discord bots can potentially violate Discord’s and Owo bot’s terms of service.
-- This project is meant for educational purposes only.
+## 🎀 Responsible Use Policy
+
+By using this repository, you agree to:
+- comply with Discord and all third-party Terms of Service
+- avoid spam/abuse/unauthorized automation
+- use the code only in ethical, permitted contexts
+
+If a use case conflicts with platform rules, **do not use this project for that purpose**.
 
 ---
 
-This description provides a clear overview of the bot's purpose, features, setup instructions, and important disclaimers, ensuring potential users understand its functionality and risks involved.
+## 🌷 Recommended Next Steps
+
+If you want to keep this repo public safely, consider:
+- adding an `ARCHIVED.md` explaining deprecation
+- removing operational automation configs/examples
+- adding unit tests to showcase engineering quality
+- turning modules into generic “scheduler demo” components
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome for:
+- refactoring
+- documentation improvements
+- testing and code quality enhancements
+- architecture learning examples
+
+Please keep all contributions aligned with ethical and compliant usage.
+
+---
+
+## 📜 License
+
+Add your license here (example: MIT).
+
+---
+
+<p align="center">
+  made with 💗, discipline, and anime sparkles ✨
+</p>
