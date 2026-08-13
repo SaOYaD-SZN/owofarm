@@ -1,6 +1,6 @@
 const config = {
   typing: true,
-  prefix: 'W',
+  prefix: 'owo',
   status: {
     hunt: true,
     battle: true,
