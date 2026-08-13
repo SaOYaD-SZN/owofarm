@@ -107,14 +107,14 @@ If the bot doesn't start, you need to configure your personal settings:
 3. **Update the following IDs in the file:**
    - **Channel IDs** (for hunting, battling, gambling):
      ```json
-     "hunting": "YOUR_HUNTING_CHANNEL_ID",
-     "battling": "YOUR_BATTLING_CHANNEL_ID",
-     "gambling": "YOUR_GAMBLING_CHANNEL_ID"
+     "hunt": "YOUR_HUNTING_CHANNEL_ID",
+     "battle": "YOUR_BATTLING_CHANNEL_ID",
+     "gamble": "YOUR_GAMBLING_CHANNEL_ID"
      ```
    - **User IDs** (for praying, cursing, cookie):
      ```json
-     "praying": "YOUR_USER_ID",
-     "cursing": "YOUR_USER_ID",
+     "pray": "YOUR_USER_ID",
+     "curse": "YOUR_USER_ID",
      "cookie": "YOUR_USER_ID"
      ```
 
