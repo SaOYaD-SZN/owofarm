@@ -66,7 +66,7 @@ class AutoFarm {
       });
       this.logger.info('AutoFarm is ready!');
 
-      this.sendMessage(this.setting.channels.hunt, 'AutoFarm is ready!');
+      this.sendMessage(this.setting.channels.hunt, 'OwO');
       this.autoChecklist();
 
       setTimeout(() => {
