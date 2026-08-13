@@ -48,6 +48,8 @@ owofarm/
 │  ├─ config.ts
 │  ├─ index.ts
 │  └─ modules/
+├─ config/
+│  └─ your_username.json
 ├─ package.json
 ├─ tsconfig.json
 └─ README.md
@@ -71,8 +73,11 @@ owofarm/
    ```
 
 3. **Configure environment**
-   - Create a local `.env` file from your own template
-   - Keep secrets private and never commit tokens
+   ```bash
+   cp .env.example .env
+   nano .env
+   ```
+   Add your Discord account token to the `.env` file.
 
 4. **Build**
    ```bash
@@ -81,8 +86,37 @@ owofarm/
 
 5. **Run**
    ```bash
-   npm start
+   npm run start
    ```
+
+### ⚙️ Configuration File Setup
+
+If the bot doesn't start, you need to configure your personal settings:
+
+1. **Navigate to config directory and view your username file**
+   ```bash
+   cd config && ls
+   ```
+   You'll see a file named `your_username.json`. Replace `your_username` with your Discord username.
+
+2. **Edit your configuration file**
+   ```bash
+   nano your_username.json
+   ```
+
+3. **Update the following IDs in the file:**
+   - **Channel IDs** (for hunting, battling, gambling):
+     ```json
+     "hunting": "YOUR_HUNTING_CHANNEL_ID",
+     "battling": "YOUR_BATTLING_CHANNEL_ID",
+     "gambling": "YOUR_GAMBLING_CHANNEL_ID"
+     ```
+   - **User IDs** (for praying, cursing, cookie):
+     ```json
+     "praying": "YOUR_USER_ID",
+     "cursing": "YOUR_USER_ID",
+     "cookie": "YOUR_USER_ID"
+     ```
 
 ---
 
@@ -103,7 +137,7 @@ If you want to keep this repo public safely, consider:
 - adding an `ARCHIVED.md` explaining deprecation
 - removing operational automation configs/examples
 - adding unit tests to showcase engineering quality
-- turning modules into generic “scheduler demo” components
+- turning modules into generic "scheduler demo" components
 
 ---
 
