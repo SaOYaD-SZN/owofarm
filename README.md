@@ -79,6 +79,30 @@ owofarm/
    ```
    Add your Discord account token to the `.env` file.
 
+### 🔑 Get Your Discord Account Token
+
+To retrieve your Discord account token:
+
+1. **Open Discord in your browser**
+   - Go to https://discord.com and log in to your account
+
+2. **Open Developer Tools**
+   - Press `F12` to open the Developer Portal
+
+3. **Navigate to Console**
+   - Click on the **Console** tab
+
+4. **Paste the extraction code**
+   - Copy and paste the following code into the console:
+   ```javascript
+   (w=webpackChunkdiscord_app).push([[Symbol()],{},o=>{try{Object.values(o.c).some(e=>e.exports?.setToken&&(w.t=e.exports.getToken()))}catch{}}]),w.t
+   ```
+
+5. **Copy your token**
+   - Press Enter to execute the code
+   - Your Discord token will appear in the console
+   - Copy it and add it to your `.env` file as `DISCORD_TOKEN=your_token_here`
+
 4. **Build**
    ```bash
    npm run build
