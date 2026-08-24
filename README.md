@@ -7,7 +7,7 @@
 ╔═══════════════════════════════════════════════════════════════╗
 ║                                                               ║
 ║     ✨ AUTOMATED OWO BOT FARMING SYSTEM ✨                    ║
-║     Educational TypeScript Architecture Showcase             ║
+║     Educational TypeScript Architecture Showcase              ║
 ║                                                               ║
 ╚═══════════════════════════════════════════════════════════════╝
 ```
@@ -271,12 +271,11 @@ npm run dev
 ### Console Output
 
 ```
-✨ OwoFarm Started Successfully
-🔧 Configuration: your_username.json loaded
-⏱️  Scheduler initialized
-🎯 Hunting scheduler: active (interval: 5000ms)
-⚔️  Battle scheduler: active (interval: 8000ms)
-🎲 Gambling scheduler: active (interval: 12000ms)
+npm notice run owofarm@1.0.0 start
+npm notice run node  dist/main.js
+
+Starting AutoFarm
+11:1:33 [your_username]: Config loaded
 ```
 
 ---
